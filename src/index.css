@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+
+::-webkit-scrollbar{
+    display: none;
+}
+*{
+    scroll-behavior: smooth;
+}
+
+
+.dropShadow{
+    filter: drop-shadow(5px 3px 10px #292828aa);
+}
+
+.dropShadowText{
+    filter: drop-shadow(2px 2px 8px #47dd117f);
+}
+.dropShadowTexts{
+    filter: drop-shadow(2px 3px 4px gray);
+}
+
+.dropShadowImage{
+    filter: drop-shadow(4px 9px 18px #1f1e1e);
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+button.btn{
+    color: #1a1a1a;
+    background-color: #00ff11;
+    transition: all 0.4s linear;
+    box-shadow: 0 0 10px #00ff11, 0 0 30px #00ff11, 0 0 35px #00ff11;
+}
+button.btn:hover{
+    transform: scale(1.012);
+    color: white;
+    border: none;
+    background: #1a1a1a;
+}
+.texts{
+ color: #293462;
+}
+
+.GredientBg{
+    /* background: linear-gradient(to right, #6B9DE8,60%,  #F91030); */
+    background: #ffd902;
+}
